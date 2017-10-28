@@ -1,6 +1,6 @@
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Computes areas of each triangle and determines which triangle has the larger area.
 */
@@ -17,7 +17,7 @@ void displayArea(Triangle);
 
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Holds return values of createTriangle and calls computeLargerArea to compute.
 */
@@ -35,7 +35,7 @@ int main()
 
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Asks user for triangle dimensions
 */
@@ -51,7 +51,7 @@ float askUserForInput(string textOutput)
 
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Creates text output and calls askUserForInput for the base and the height.
 */
@@ -67,7 +67,7 @@ Triangle createTriangle()
 
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Computes larger area
 */
@@ -79,7 +79,7 @@ void computeLargerArea(Triangle tri1, Triangle tri2)
 		displayArea(tri1);
 
 	}
-	
+
 	else if (tri1.computeArea() < tri2.computeArea())
 	{
 
@@ -95,7 +95,7 @@ void computeLargerArea(Triangle tri1, Triangle tri2)
 
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Displays larger area
 */

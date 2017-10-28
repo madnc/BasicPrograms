@@ -1,6 +1,6 @@
 /*
 Author: Nicholas Cleveland
-Creation date: 08/07/17
+Creation date: 08/07/16
 Last modification date: 08/17/16
 Purpose: Defines class and objects in public and private.
 */
